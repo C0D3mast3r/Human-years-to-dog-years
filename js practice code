@@ -1,0 +1,12 @@
+let myAge = 33;
+let earlyYears = 2; // the value saved to this variable will change
+earlyYears *= 10.5;
+
+// below will subtract 2 from myage variable
+let laterYears = myAge - 2;
+laterYears - 4; // number of dog years calculation
+// my age in dog yrs by adding early and later yrs
+let myAgeInDogYears = earlyYears + laterYears;
+
+let myName = "Rambro";
+console.log("My name is "+ myName + ". I am "+ myAge + " years old in human years which is "+ myAgeInDogYears + " years old in dog years.");
